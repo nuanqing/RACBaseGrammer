@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05CD5777E0CBAC3603DCCCCB /* libPods-RAC常用方法.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 658D6F3CAA7CBF338F3CE165 /* libPods-RAC常用方法.a */; };
+		0782520C98C14D03DAAA20A9 /* libPods-RAC常用方法UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6039BC84C4D0A96668E6F55B /* libPods-RAC常用方法UITests.a */; };
+		BA6572142CADD236CD8B33CB /* libPods-RAC常用方法Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65822B2BB5BC9E601EF0FAF5 /* libPods-RAC常用方法Tests.a */; };
+		FA3C58A820458E3C00D9168A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3C58A720458E3C00D9168A /* AppDelegate.m */; };
+		FA3C58AB20458E3C00D9168A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3C58AA20458E3C00D9168A /* ViewController.m */; };
+		FA3C58AE20458E3C00D9168A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3C58AC20458E3C00D9168A /* Main.storyboard */; };
+		FA3C58B020458E3C00D9168A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3C58AF20458E3C00D9168A /* Assets.xcassets */; };
+		FA3C58B320458E3C00D9168A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3C58B120458E3C00D9168A /* LaunchScreen.storyboard */; };
+		FA3C58B620458E3C00D9168A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3C58B520458E3C00D9168A /* main.m */; };
+		FA3C58C020458E3C00D9168A /* RAC____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3C58BF20458E3C00D9168A /* RAC____Tests.m */; };
+		FA3C58CB20458E3D00D9168A /* RAC____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3C58CA20458E3D00D9168A /* RAC____UITests.m */; };
+		FA3C58DA2045996E00D9168A /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3C58D92045996E00D9168A /* CustomView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA3C58BC20458E3C00D9168A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA3C589B20458E3C00D9168A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA3C58A220458E3C00D9168A;
+			remoteInfo = "RAC常用方法";
+		};
+		FA3C58C720458E3D00D9168A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA3C589B20458E3C00D9168A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA3C58A220458E3C00D9168A;
+			remoteInfo = "RAC常用方法";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6039BC84C4D0A96668E6F55B /* libPods-RAC常用方法UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RAC常用方法UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62C37B425B834991C916DE34 /* Pods-RAC常用方法UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC常用方法UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RAC常用方法UITests/Pods-RAC常用方法UITests.release.xcconfig"; sourceTree = "<group>"; };
+		65822B2BB5BC9E601EF0FAF5 /* libPods-RAC常用方法Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RAC常用方法Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		658D6F3CAA7CBF338F3CE165 /* libPods-RAC常用方法.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RAC常用方法.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68C3F03C97BBBD621E1E1E31 /* Pods-RAC常用方法.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC常用方法.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RAC常用方法/Pods-RAC常用方法.debug.xcconfig"; sourceTree = "<group>"; };
+		80098B34C8BB193E1B5258E2 /* Pods-RAC常用方法Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC常用方法Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RAC常用方法Tests/Pods-RAC常用方法Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8F0EBDD1FF3780F06ED7644F /* Pods-RAC常用方法UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC常用方法UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RAC常用方法UITests/Pods-RAC常用方法UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9DE47A0BEBCB07C7D9A6BD86 /* Pods-RAC常用方法.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC常用方法.release.xcconfig"; path = "Pods/Target Support Files/Pods-RAC常用方法/Pods-RAC常用方法.release.xcconfig"; sourceTree = "<group>"; };
+		FA3C58A320458E3C00D9168A /* RAC常用方法.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RAC常用方法.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3C58A620458E3C00D9168A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA3C58A720458E3C00D9168A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA3C58A920458E3C00D9168A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FA3C58AA20458E3C00D9168A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA3C58AD20458E3C00D9168A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA3C58AF20458E3C00D9168A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA3C58B220458E3C00D9168A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA3C58B420458E3C00D9168A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA3C58B520458E3C00D9168A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA3C58BB20458E3C00D9168A /* RAC常用方法Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RAC常用方法Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3C58BF20458E3C00D9168A /* RAC____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "RAC____Tests.m"; sourceTree = "<group>"; };
+		FA3C58C120458E3C00D9168A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA3C58C620458E3D00D9168A /* RAC常用方法UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RAC常用方法UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3C58CA20458E3D00D9168A /* RAC____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "RAC____UITests.m"; sourceTree = "<group>"; };
+		FA3C58CC20458E3D00D9168A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA3C58D82045996E00D9168A /* CustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		FA3C58D92045996E00D9168A /* CustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		FC39835E73B16443D23A464F /* Pods-RAC常用方法Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC常用方法Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RAC常用方法Tests/Pods-RAC常用方法Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA3C58A020458E3C00D9168A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05CD5777E0CBAC3603DCCCCB /* libPods-RAC常用方法.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3C58B820458E3C00D9168A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6572142CADD236CD8B33CB /* libPods-RAC常用方法Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3C58C320458E3D00D9168A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0782520C98C14D03DAAA20A9 /* libPods-RAC常用方法UITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C789BC8D916CA0FD960C4CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68C3F03C97BBBD621E1E1E31 /* Pods-RAC常用方法.debug.xcconfig */,
+				9DE47A0BEBCB07C7D9A6BD86 /* Pods-RAC常用方法.release.xcconfig */,
+				FC39835E73B16443D23A464F /* Pods-RAC常用方法Tests.debug.xcconfig */,
+				80098B34C8BB193E1B5258E2 /* Pods-RAC常用方法Tests.release.xcconfig */,
+				8F0EBDD1FF3780F06ED7644F /* Pods-RAC常用方法UITests.debug.xcconfig */,
+				62C37B425B834991C916DE34 /* Pods-RAC常用方法UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A446F85A5497D0D2703A71F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				658D6F3CAA7CBF338F3CE165 /* libPods-RAC常用方法.a */,
+				65822B2BB5BC9E601EF0FAF5 /* libPods-RAC常用方法Tests.a */,
+				6039BC84C4D0A96668E6F55B /* libPods-RAC常用方法UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA3C589A20458E3C00D9168A = {
+			isa = PBXGroup;
+			children = (
+				FA3C58A520458E3C00D9168A /* RAC常用方法 */,
+				FA3C58BE20458E3C00D9168A /* RAC常用方法Tests */,
+				FA3C58C920458E3D00D9168A /* RAC常用方法UITests */,
+				FA3C58A420458E3C00D9168A /* Products */,
+				2C789BC8D916CA0FD960C4CE /* Pods */,
+				A446F85A5497D0D2703A71F2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA3C58A420458E3C00D9168A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA3C58A320458E3C00D9168A /* RAC常用方法.app */,
+				FA3C58BB20458E3C00D9168A /* RAC常用方法Tests.xctest */,
+				FA3C58C620458E3D00D9168A /* RAC常用方法UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA3C58A520458E3C00D9168A /* RAC常用方法 */ = {
+			isa = PBXGroup;
+			children = (
+				FA3C58A620458E3C00D9168A /* AppDelegate.h */,
+				FA3C58A720458E3C00D9168A /* AppDelegate.m */,
+				FA3C58A920458E3C00D9168A /* ViewController.h */,
+				FA3C58AA20458E3C00D9168A /* ViewController.m */,
+				FA3C58D82045996E00D9168A /* CustomView.h */,
+				FA3C58D92045996E00D9168A /* CustomView.m */,
+				FA3C58AC20458E3C00D9168A /* Main.storyboard */,
+				FA3C58AF20458E3C00D9168A /* Assets.xcassets */,
+				FA3C58B120458E3C00D9168A /* LaunchScreen.storyboard */,
+				FA3C58B420458E3C00D9168A /* Info.plist */,
+				FA3C58B520458E3C00D9168A /* main.m */,
+			);
+			path = "RAC常用方法";
+			sourceTree = "<group>";
+		};
+		FA3C58BE20458E3C00D9168A /* RAC常用方法Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FA3C58BF20458E3C00D9168A /* RAC____Tests.m */,
+				FA3C58C120458E3C00D9168A /* Info.plist */,
+			);
+			path = "RAC常用方法Tests";
+			sourceTree = "<group>";
+		};
+		FA3C58C920458E3D00D9168A /* RAC常用方法UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA3C58CA20458E3D00D9168A /* RAC____UITests.m */,
+				FA3C58CC20458E3D00D9168A /* Info.plist */,
+			);
+			path = "RAC常用方法UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA3C58A220458E3C00D9168A /* RAC常用方法 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA3C58CF20458E3D00D9168A /* Build configuration list for PBXNativeTarget "RAC常用方法" */;
+			buildPhases = (
+				49EFB976079D3ED49B1B1ACC /* [CP] Check Pods Manifest.lock */,
+				FA3C589F20458E3C00D9168A /* Sources */,
+				FA3C58A020458E3C00D9168A /* Frameworks */,
+				FA3C58A120458E3C00D9168A /* Resources */,
+				A7041F6B7547BCB0A13BD471 /* [CP] Embed Pods Frameworks */,
+				BA7F74989AB250D3B95DA508 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RAC常用方法";
+			productName = "RAC常用方法";
+			productReference = FA3C58A320458E3C00D9168A /* RAC常用方法.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA3C58BA20458E3C00D9168A /* RAC常用方法Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA3C58D220458E3D00D9168A /* Build configuration list for PBXNativeTarget "RAC常用方法Tests" */;
+			buildPhases = (
+				FE929DEDF32C22D05DFE47D0 /* [CP] Check Pods Manifest.lock */,
+				FA3C58B720458E3C00D9168A /* Sources */,
+				FA3C58B820458E3C00D9168A /* Frameworks */,
+				FA3C58B920458E3C00D9168A /* Resources */,
+				EA55B752AF18C140B51F344B /* [CP] Embed Pods Frameworks */,
+				94A5DF3190121DE27291584D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA3C58BD20458E3C00D9168A /* PBXTargetDependency */,
+			);
+			name = "RAC常用方法Tests";
+			productName = "RAC常用方法Tests";
+			productReference = FA3C58BB20458E3C00D9168A /* RAC常用方法Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA3C58C520458E3D00D9168A /* RAC常用方法UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA3C58D520458E3D00D9168A /* Build configuration list for PBXNativeTarget "RAC常用方法UITests" */;
+			buildPhases = (
+				70D56CE67D2B9FAA2106C803 /* [CP] Check Pods Manifest.lock */,
+				FA3C58C220458E3D00D9168A /* Sources */,
+				FA3C58C320458E3D00D9168A /* Frameworks */,
+				FA3C58C420458E3D00D9168A /* Resources */,
+				659040C396457A059DFBA399 /* [CP] Embed Pods Frameworks */,
+				5B2DCF777CD694265CE199C5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA3C58C820458E3D00D9168A /* PBXTargetDependency */,
+			);
+			name = "RAC常用方法UITests";
+			productName = "RAC常用方法UITests";
+			productReference = FA3C58C620458E3D00D9168A /* RAC常用方法UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA3C589B20458E3C00D9168A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = nuanqing;
+				TargetAttributes = {
+					FA3C58A220458E3C00D9168A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FA3C58BA20458E3C00D9168A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA3C58A220458E3C00D9168A;
+					};
+					FA3C58C520458E3D00D9168A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA3C58A220458E3C00D9168A;
+					};
+				};
+			};
+			buildConfigurationList = FA3C589E20458E3C00D9168A /* Build configuration list for PBXProject "RAC常用方法" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA3C589A20458E3C00D9168A;
+			productRefGroup = FA3C58A420458E3C00D9168A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA3C58A220458E3C00D9168A /* RAC常用方法 */,
+				FA3C58BA20458E3C00D9168A /* RAC常用方法Tests */,
+				FA3C58C520458E3D00D9168A /* RAC常用方法UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA3C58A120458E3C00D9168A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3C58B320458E3C00D9168A /* LaunchScreen.storyboard in Resources */,
+				FA3C58B020458E3C00D9168A /* Assets.xcassets in Resources */,
+				FA3C58AE20458E3C00D9168A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3C58B920458E3C00D9168A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3C58C420458E3D00D9168A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49EFB976079D3ED49B1B1ACC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RAC常用方法-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B2DCF777CD694265CE199C5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAC常用方法UITests/Pods-RAC常用方法UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		659040C396457A059DFBA399 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAC常用方法UITests/Pods-RAC常用方法UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70D56CE67D2B9FAA2106C803 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RAC常用方法UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94A5DF3190121DE27291584D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAC常用方法Tests/Pods-RAC常用方法Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7041F6B7547BCB0A13BD471 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAC常用方法/Pods-RAC常用方法-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA7F74989AB250D3B95DA508 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAC常用方法/Pods-RAC常用方法-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA55B752AF18C140B51F344B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAC常用方法Tests/Pods-RAC常用方法Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE929DEDF32C22D05DFE47D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RAC常用方法Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA3C589F20458E3C00D9168A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3C58AB20458E3C00D9168A /* ViewController.m in Sources */,
+				FA3C58DA2045996E00D9168A /* CustomView.m in Sources */,
+				FA3C58B620458E3C00D9168A /* main.m in Sources */,
+				FA3C58A820458E3C00D9168A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3C58B720458E3C00D9168A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3C58C020458E3C00D9168A /* RAC____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3C58C220458E3D00D9168A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3C58CB20458E3D00D9168A /* RAC____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA3C58BD20458E3C00D9168A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA3C58A220458E3C00D9168A /* RAC常用方法 */;
+			targetProxy = FA3C58BC20458E3C00D9168A /* PBXContainerItemProxy */;
+		};
+		FA3C58C820458E3D00D9168A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA3C58A220458E3C00D9168A /* RAC常用方法 */;
+			targetProxy = FA3C58C720458E3D00D9168A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA3C58AC20458E3C00D9168A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA3C58AD20458E3C00D9168A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA3C58B120458E3C00D9168A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA3C58B220458E3C00D9168A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA3C58CD20458E3D00D9168A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA3C58CE20458E3D00D9168A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA3C58D020458E3D00D9168A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68C3F03C97BBBD621E1E1E31 /* Pods-RAC常用方法.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YMC28H56EE;
+				INFOPLIST_FILE = "RAC常用方法/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nuanqing.RAC----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA3C58D120458E3D00D9168A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DE47A0BEBCB07C7D9A6BD86 /* Pods-RAC常用方法.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YMC28H56EE;
+				INFOPLIST_FILE = "RAC常用方法/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nuanqing.RAC----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA3C58D320458E3D00D9168A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC39835E73B16443D23A464F /* Pods-RAC常用方法Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YMC28H56EE;
+				INFOPLIST_FILE = "RAC常用方法Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nuanqing.RAC----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RAC常用方法.app/RAC常用方法";
+			};
+			name = Debug;
+		};
+		FA3C58D420458E3D00D9168A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80098B34C8BB193E1B5258E2 /* Pods-RAC常用方法Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YMC28H56EE;
+				INFOPLIST_FILE = "RAC常用方法Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nuanqing.RAC----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RAC常用方法.app/RAC常用方法";
+			};
+			name = Release;
+		};
+		FA3C58D620458E3D00D9168A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F0EBDD1FF3780F06ED7644F /* Pods-RAC常用方法UITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YMC28H56EE;
+				INFOPLIST_FILE = "RAC常用方法UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nuanqing.RAC----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RAC常用方法";
+			};
+			name = Debug;
+		};
+		FA3C58D720458E3D00D9168A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62C37B425B834991C916DE34 /* Pods-RAC常用方法UITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YMC28H56EE;
+				INFOPLIST_FILE = "RAC常用方法UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nuanqing.RAC----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RAC常用方法";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA3C589E20458E3C00D9168A /* Build configuration list for PBXProject "RAC常用方法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3C58CD20458E3D00D9168A /* Debug */,
+				FA3C58CE20458E3D00D9168A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA3C58CF20458E3D00D9168A /* Build configuration list for PBXNativeTarget "RAC常用方法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3C58D020458E3D00D9168A /* Debug */,
+				FA3C58D120458E3D00D9168A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA3C58D220458E3D00D9168A /* Build configuration list for PBXNativeTarget "RAC常用方法Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3C58D320458E3D00D9168A /* Debug */,
+				FA3C58D420458E3D00D9168A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA3C58D520458E3D00D9168A /* Build configuration list for PBXNativeTarget "RAC常用方法UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3C58D620458E3D00D9168A /* Debug */,
+				FA3C58D720458E3D00D9168A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA3C589B20458E3C00D9168A /* Project object */;
+}

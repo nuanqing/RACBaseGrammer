@@ -1,0 +1,12 @@
+PODS:
+  - ReactiveObjC (3.1.0)
+
+DEPENDENCIES:
+  - ReactiveObjC
+
+SPEC CHECKSUMS:
+  ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
+
+PODFILE CHECKSUM: 89ea9a3858e7f890c90ea8ed7f1a88e37cd95a4a
+
+COCOAPODS: 1.4.0
